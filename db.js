@@ -1,8 +1,7 @@
 const mongoose = require('mongoose')
 
 // mongoose.connect('mongodb+srv://dipanshuojha12:Ojha7777%40@cluster0.h6n76j3.mongodb.net/userTable');
-
-const mongoose = require('mongoose');
+require('dotenv').config();
 
 const connectdb = async () => {
     try {
