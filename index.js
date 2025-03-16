@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const cors = require("cors");
-const router = require('../paymentapp-backend/routes/index1');
+const router = require('./routes/index1');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
